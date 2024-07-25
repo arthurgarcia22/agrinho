@@ -7,7 +7,7 @@ export const Footer = () => {
         <div className="flex w-full flex-col items-start justify-start gap-6 md:flex-row md:justify-between lg:w-min lg:flex-col lg:justify-start">
           <Logo className="h-16 text-zinc-900" />
           <div className="flex flex-col items-start gap-6 md:items-end md:gap-2 lg:items-start lg:gap-6">
-            <div className="text-right text-xs">Nosso trabalho escolar.</div>
+            <div className="text-right text-xs">SAC - +55 41991516767</div>
           </div>
         </div>
       </div>
