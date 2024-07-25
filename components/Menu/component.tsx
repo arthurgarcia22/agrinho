@@ -51,10 +51,10 @@ export const MenuClient = () => {
           </div>
           <button
             aria-label="Abrir menu"
-            className="flex items-center py-4 lg:hidden"
+            className="flex items-center py-4 text-black lg:hidden"
             onClick={() => _open(true)}
           >
-            <HamburgerMenuIcon className="h-6 w-6" />
+            <HamburgerMenuIcon className="h-6 w-6 text-black" />
           </button>
           <div className="hidden items-center gap-5 px-4 py-4 lg:flex">
               <Button
