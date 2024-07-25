@@ -2,9 +2,9 @@
 const nextConfig = {
   images: {
     domains: [
-      "f.hubspotusercontent00.net",
-      "comprerural.com",
-      "cerradocase.com.br",
+      "img.freepik.com",
+      "media.istockphoto.com",
+      "beefpoint.com.br",
     ],
   },
 };
