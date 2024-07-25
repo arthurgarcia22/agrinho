@@ -13,8 +13,8 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Única Mineração",
-    default: "Única Mineração",
+    template: "%s | Agrinho",
+    default: "Agrinho",
   },
   description: "Site em desenvolvimento",
 };
