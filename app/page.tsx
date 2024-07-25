@@ -32,12 +32,12 @@ export default function Home() {
           id={item.id}
           key={i}
           className={
-            "grid grid-cols-1 md:grid-rows-1 grid-rows-2 md:grid-cols-2 gap-12"
+            "grid grid-cols-[1fr_min-content] md:grid-rows-1 grid-rows-2 md:grid-cols-2 gap-12"
           }
         >
           <div
             className={cn(
-              i % 2 == 0 ? "order-1" : "order-0",
+              i % 2 == 0 ? "md:order-1" : "md:order-0",
               "w-full relative h-[80vh] md:h-full bg-zinc-400"
             )}
           >
