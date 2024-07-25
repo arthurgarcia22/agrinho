@@ -6,7 +6,7 @@ function Logo(props: React.SVGProps<SVGSVGElement>) {
   
   return (
     <div className='relative h-16 aspect-video'>
-      <Image src='./logo' alt='logo' fill className='object-contain'/>
+      <Image src='/logo' alt='logo' fill className='object-contain'/>
     </div>
   );
 }
