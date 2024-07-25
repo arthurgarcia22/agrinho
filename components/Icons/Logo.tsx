@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import * as React from "react";
-import {Image} from "next/image"
+import Image from 'next/image'
 
 function Logo(props: React.SVGProps<SVGSVGElement>) {
   
