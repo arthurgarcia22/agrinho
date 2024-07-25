@@ -95,38 +95,22 @@ export const MenuClient = () => {
           className="flex justify-end"
           onClick={() => _open(false)}
         >
-          <Cross2Icon className="h-6 w-6 text-primary-700" />
+          <Cross2Icon className="h-6 w-6 text-black" />
         </button>
         <div className="flex flex-col items-start gap-y-2 py-10">
           <Button asChild size={"lg"} variant={"link"}>
-            <Link href={`/home`} onClick={() => _open(false)}>
-              Início
+            <Link href={`#agricultura`} onClick={() => _open(false)}>
+              Agricultura
             </Link>
           </Button>
           <Button asChild size={"lg"} variant={"link"}>
-            <Link href={`/sobre`} onClick={() => _open(false)}>
-              Sobre
+            <Link href={`#tech`} onClick={() => _open(false)}>
+              Técnologia
             </Link>
           </Button>
           <Button asChild size={"lg"} variant={"link"}>
-            <Link href={`/empreendimentos`} onClick={() => _open(false)}>
-              Empreendimentos
-            </Link>
-          </Button>
-          <Button asChild size={"lg"} variant={"link"}>
-            <Link href={`/cidades`} onClick={() => _open(false)}>
-              Cidades
-            </Link>
-          </Button>
-
-          <Button asChild size={"lg"} variant={"link"}>
-            <Link href={`/cub-sc`} onClick={() => _open(false)}>
-              CUB / SC
-            </Link>
-          </Button>
-          <Button asChild size={"lg"} variant={"link"}>
-            <Link href={`/fale-conosco`} onClick={() => _open(false)}>
-              Fale conosco
+            <Link href={`#services`} onClick={() => _open(false)}>
+              Serviços
             </Link>
           </Button>
         </div>
