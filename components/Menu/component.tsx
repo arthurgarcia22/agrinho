@@ -57,6 +57,14 @@ export const MenuClient = () => {
             <HamburgerMenuIcon className="h-6 w-6" />
           </button>
           <div className="hidden items-center gap-5 px-4 py-4 lg:flex">
+              <Button
+              asChild
+              size={"sm"}
+              variant={"link"}
+              className="opacity-80 transition-opacity ease-in-out hover:opacity-100"
+            >
+              <Link href={`#agricultura`}>Agricultura</Link>
+            </Button>
             <Button
               asChild
               size={"sm"}
@@ -72,14 +80,6 @@ export const MenuClient = () => {
               className="opacity-80 transition-opacity ease-in-out hover:opacity-100"
             >
               <Link href={`#services`}>Serviços</Link>
-            </Button>
-            <Button
-              asChild
-              size={"sm"}
-              variant={"link"}
-              className="opacity-80 transition-opacity ease-in-out hover:opacity-100"
-            >
-              <Link href={`#agricultura`}>Agricultura</Link>
             </Button>
           </div>
         </div>
