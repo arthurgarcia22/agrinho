@@ -32,7 +32,7 @@ export default function Home() {
           id={item.id}
           key={i}
           className={
-            "grid grid-cols-[1fr_min-content] md:grid-rows-1 grid-rows-2 md:grid-cols-2 gap-12"
+            "flex flex-col md:grid md:grid-rows-1 md:grid-cols-2 gap-12"
           }
         >
           <div
