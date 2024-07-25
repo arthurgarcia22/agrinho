@@ -46,7 +46,7 @@ export const MenuClient = () => {
               title="Voltar para a home"
               className="opacity-80 transition-opacity ease-in-out hover:opacity-100"
             >
-              <Logo className="h-12" />
+              <Logo className="h-20" />
             </Link>
           </div>
           <button
