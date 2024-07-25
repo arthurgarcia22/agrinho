@@ -1,4 +1,4 @@
-import { Logo } from "../Icons";
+iimport { Logo } from "../Icons";
 
 export const Footer = () => {
   return (
@@ -13,7 +13,7 @@ export const Footer = () => {
       </div>
       <div className="py-16">
         <div className="text-xs opacity-75">
-          <b>&copy; 2024 Arthur. All rights reserved. </b>
+          <b>&copy; 2024 Arthur e Vinicius. All rights reserved. </b>
         </div>
       </div>
     </div>
