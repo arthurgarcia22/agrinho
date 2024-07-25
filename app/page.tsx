@@ -26,7 +26,7 @@ export default function Home() {
   ];
 
   return (
-    <Section classNameContent="flex min-h-screen gap-12 flex-col items-center justify-between md:p-24">
+    <Section classNameContent="flex min-h-screen md:gap-12 flex-col items-center justify-between md:p-24">
       {info.map((item, i) => (
         <div
           id={item.id}
