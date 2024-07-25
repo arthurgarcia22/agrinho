@@ -2,8 +2,8 @@
 const nextConfig = {
   images: {
     domains: [
-      "cnhi-p-001-delivery.sitecorecontenthub.cloud",
-      "assets.revistacultivar.com.br",
+      "f.hubspotusercontent00.net",
+      "comprerural.com",
       "cerradocase.com.br",
     ],
   },
