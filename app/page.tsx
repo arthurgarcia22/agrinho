@@ -26,7 +26,7 @@ export default function Home() {
   ];
 
   return (
-    <Section classNameContent="flex min-h-screen gap-12 flex-col items-center justify-between p-24">
+    <Section classNameContent="flex min-h-screen gap-12 flex-col items-center justify-between md:p-24">
       {info.map((item, i) => (
         <div
           id={item.id}
@@ -38,7 +38,7 @@ export default function Home() {
           <div
             className={cn(
               i % 2 == 0 ? "order-1" : "order-0",
-              "w-full h-full relative aspect-video md:aspect-auto bg-zinc-400"
+              "w-full relative h-[80vh] md:h-full bg-zinc-400"
             )}
           >
             <Image src={item.imageUrl} alt="" fill className={"object-cover"} />
